@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 /*REV_02) Problema: Faça um programa que receba um valor inteiro N e imprima as
 N linhas do triângulo a seguir, conhecido como triangulo de Floyd. (no caso de N = 5):
