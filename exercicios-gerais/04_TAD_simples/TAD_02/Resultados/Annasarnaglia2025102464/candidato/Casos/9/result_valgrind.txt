@@ -1,0 +1,70 @@
+==39866== Memcheck, a memory error detector
+==39866== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==39866== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==39866== Command: Resultados/Annasarnaglia2025102464/candidato/prog Resultados/Annasarnaglia2025102464/candidato/Casos/9
+==39866== Parent PID: 39865
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==39866==    by 0x109244: CriaCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x1093DC: LeCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10964E: InicializaEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AE04: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==39866==    by 0x109244: CriaCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x1093DC: LeCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10964E: InicializaEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AE04: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==39866==    by 0x109261: CriaCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x1093DC: LeCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10964E: InicializaEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AE04: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==39866==    by 0x109261: CriaCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x1093DC: LeCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10964E: InicializaEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AE04: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x10A3E1: ImprimeResultadoEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AEA5: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x10A564: ImprimeResultadoEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AEA5: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x10942E: EhMesmoCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10A609: ImprimeResultadoEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AEA5: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x10A6C1: ImprimeResultadoEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AEA5: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x10A946: ImprimeResultadoEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AEA5: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== Conditional jump or move depends on uninitialised value(s)
+==39866==    at 0x10942E: EhMesmoCandidato (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AA1A: ImprimeResultadoEleicao (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866==    by 0x10AEA5: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Annasarnaglia2025102464/candidato/prog)
+==39866== 
+==39866== 
+==39866== HEAP SUMMARY:
+==39866==     in use at exit: 0 bytes in 0 blocks
+==39866==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==39866== 
+==39866== All heap blocks were freed -- no leaks are possible
+==39866== 
+==39866== Use --track-origins=yes to see where uninitialised values come from
+==39866== For lists of detected and suppressed errors, rerun with: -s
+==39866== ERROR SUMMARY: 61 errors from 10 contexts (suppressed: 0 from 0)

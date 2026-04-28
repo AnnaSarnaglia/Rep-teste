@@ -1,0 +1,11 @@
+eleicao.c: In function ‘InicializaEleicao’:
+eleicao.c:14:14: warning: unused variable ‘E’ [-Wunused-variable]
+   14 |     tEleitor E;
+      |              ^
+eleicao.c:13:16: warning: unused variable ‘C’ [-Wunused-variable]
+   13 |     tCandidato C;
+      |                ^
+eleicao.c: In function ‘RealizaEleicao’:
+eleicao.c:34:14: warning: unused variable ‘c’ [-Wunused-variable]
+   34 |     tEleitor c;
+      |              ^

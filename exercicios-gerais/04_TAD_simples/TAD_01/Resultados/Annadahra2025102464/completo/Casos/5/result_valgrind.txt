@@ -1,0 +1,26 @@
+==40712== Memcheck, a memory error detector
+==40712== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==40712== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==40712== Command: Resultados/Annadahra2025102464/completo/prog Resultados/Annadahra2025102464/completo/Casos/5
+==40712== Parent PID: 40711
+==40712== 
+==40712== Use of uninitialised value of size 8
+==40712==    at 0x10980A: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712==    by 0x109332: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712==    by 0x10965C: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712== 
+==40712== Use of uninitialised value of size 8
+==40712==    at 0x109865: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712==    by 0x109332: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712==    by 0x10965C: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712== 
+==40712== Use of uninitialised value of size 8
+==40712==    at 0x10980A: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712==    by 0x109332: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712==    by 0x109648: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712== 
+==40712== Use of uninitialised value of size 8
+==40712==    at 0x10983E: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712==    by 0x109332: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712==    by 0x109648: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40712== 

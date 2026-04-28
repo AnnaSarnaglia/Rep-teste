@@ -1,0 +1,18 @@
+==42503== Memcheck, a memory error detector
+==42503== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==42503== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==42503== Command: Resultados/Annadahra2025102464/jogador/prog Resultados/Annadahra2025102464/jogador/Casos/4
+==42503== Parent PID: 42502
+==42503== 
+==42503== Use of uninitialised value of size 8
+==42503==    at 0x10991F: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/jogador/prog)
+==42503==    by 0x109323: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/jogador/prog)
+==42503==    by 0x10957A: ComecaJogo (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/jogador/prog)
+==42503==    by 0x1097FA: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/jogador/prog)
+==42503== 
+==42503== Use of uninitialised value of size 8
+==42503==    at 0x10994C: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/jogador/prog)
+==42503==    by 0x109323: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/jogador/prog)
+==42503==    by 0x109600: ComecaJogo (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/jogador/prog)
+==42503==    by 0x1097FA: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/jogador/prog)
+==42503== 

@@ -1,0 +1,4 @@
+candidato.c: In function ‘LeCandidato’:
+candidato.c:34:13: warning: variable ‘voto’ set but not used [-Wunused-but-set-variable]
+   34 |     int id, voto;
+      |             ^~~~

@@ -1,0 +1,26 @@
+==40146== Memcheck, a memory error detector
+==40146== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==40146== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==40146== Command: Resultados/Annadahra2025102464/completo/prog Resultados/Annadahra2025102464/completo/Casos/3
+==40146== Parent PID: 40145
+==40146== 
+==40146== Use of uninitialised value of size 8
+==40146==    at 0x10980A: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146==    by 0x109332: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146==    by 0x109648: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146== 
+==40146== Use of uninitialised value of size 8
+==40146==    at 0x10983E: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146==    by 0x109332: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146==    by 0x109648: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146== 
+==40146== Use of uninitialised value of size 8
+==40146==    at 0x10980A: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146==    by 0x109332: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146==    by 0x10965C: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146== 
+==40146== Use of uninitialised value of size 8
+==40146==    at 0x109865: MarcaPosicaoTabuleiro (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146==    by 0x109332: JogaJogador (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146==    by 0x10965C: main (in /home/anna-sarnaglia/aula3/Rep-teste/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Annadahra2025102464/completo/prog)
+==40146== 

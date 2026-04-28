@@ -1,0 +1,16 @@
+tabuleiro.c: In function ‘ImprimeTabuleiro’:
+tabuleiro.c:155:13: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  155 |             printf("%c", tabuleiro.posicoes[i][j]);
+      |             ^~~~~~
+tabuleiro.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "tabuleiro.h"
+  +++ |+#include <stdio.h>
+    2 | 
+tabuleiro.c:155:13: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  155 |             printf("%c", tabuleiro.posicoes[i][j]);
+      |             ^~~~~~
+tabuleiro.c:155:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+tabuleiro.c:157:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  157 |         printf("\n");
+      |         ^~~~~~
+tabuleiro.c:157:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
