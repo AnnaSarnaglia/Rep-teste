@@ -1,0 +1,178 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Annasarnaglia2025102464
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Annasarnaglia2025102464:
+ - Diretório Resultados/Annasarnaglia2025102464 criado com sucesso!
+ - Diretório Resultados/Annasarnaglia2025102464/main criado com sucesso!
+ - Diretório Resultados/Annasarnaglia2025102464/completo criado com sucesso!
+ - Diretório Resultados/Annasarnaglia2025102464/aluno criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Annasarnaglia2025102464/aluno.c' encontrado!
+ - Arquivo esperado 'Respostas/Annasarnaglia2025102464/aluno.h' encontrado!
+ - Arquivo esperado 'Respostas/Annasarnaglia2025102464/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Annasarnaglia2025102464/main
+ - Copiando os Includes/aluno.h do professor para a pasta Resultados/Annasarnaglia2025102464/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Annasarnaglia2025102464/main
+	 - Removendo o main.o do professor da pasta Resultados/Annasarnaglia2025102464/main
+	 - Copiando o Respostas/Annasarnaglia2025102464/main.c do aluno para a pasta Resultados/Annasarnaglia2025102464/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Annasarnaglia2025102464/completo
+	 - Copiando os Respostas/Annasarnaglia2025102464/aluno.c do aluno para a pasta Resultados/Annasarnaglia2025102464/completo
+	 - Copiando os Respostas/Annasarnaglia2025102464/aluno.h do aluno para a pasta Resultados/Annasarnaglia2025102464/completo
+	 - Copiando os Respostas/Annasarnaglia2025102464/main.c do aluno para a pasta Resultados/Annasarnaglia2025102464/completo
+ - Pasta aluno:
+ - Copiando os Casos de teste para a pasta Resultados/Annasarnaglia2025102464/aluno
+ - Copiando os Includes/aluno.h do professor para a pasta Resultados/Annasarnaglia2025102464/aluno
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Annasarnaglia2025102464/aluno
+	 - Removendo o aluno.o do professor da pasta Resultados/Annasarnaglia2025102464/aluno
+	 - Copiando o Respostas/Annasarnaglia2025102464/aluno.c do aluno para a pasta Resultados/Annasarnaglia2025102464/aluno
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+	 - Compilando a pasta main do aluno, gerando os .o's
+	 - Compilação dos arquivos do aluno na pasta main ok!
+	 - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/main/result_compilation.txt
+	 - Compilando a pasta completo do aluno, gerando os .o's
+	 - Compilação dos arquivos do aluno na pasta completo ok!
+	 - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/completo/result_compilation.txt
+	 - Compilando a pasta aluno do aluno, gerando os .o's
+	 - Compilação dos arquivos do aluno na pasta aluno ok!
+	 - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/aluno/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/completo/result_linking.txt
+ - Pasta aluno:
+ - Gerando o binário prog linkando com o(s) arquivo(s) aluno/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/aluno/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Comparando saida.txt do aluno e do gabarito...
+	 - As saídas coincidem!
+	 - Resultado para o saida.txt: Ok! Peso: 10
+ - Soma dos pesos dos arquivos: 10.0 (soma total) = 10.00 de 10.0 pontos.
+	 - Nota para o Caso (máximo: 3.30): 3.30 
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 1, frees: 1, errors: 0 | Desconto do valgrind: 0.0%
+ - Comparando saida.txt do aluno e do gabarito...
+	 - As saídas coincidem!
+	 - Resultado para o saida.txt: Ok! Peso: 10
+ - Soma dos pesos dos arquivos: 10.0 (soma total) = 10.00 de 10.0 pontos.
+	 - Nota para o Caso (máximo: 3.30): 3.30 
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Comparando saida.txt do aluno e do gabarito...
+	 - As saídas coincidem!
+	 - Resultado para o saida.txt: Ok! Peso: 10
+ - Soma dos pesos dos arquivos: 10.0 (soma total) = 10.00 de 10.0 pontos.
+	 - Nota para o Caso (máximo: 3.30): 3.30 
+ - Nota para a pasta main (máximo 3.34) - 9.90 de 9.90 - 100.00% de 3.34: 3.34.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Comparando saida.txt do aluno e do gabarito...
+	 - As saídas coincidem!
+	 - Resultado para o saida.txt: Ok! Peso: 10
+ - Soma dos pesos dos arquivos: 10.0 (soma total) = 10.00 de 10.0 pontos.
+	 - Nota para o Caso (máximo: 3.30): 3.30 
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 1, frees: 1, errors: 0 | Desconto do valgrind: 0.0%
+ - Comparando saida.txt do aluno e do gabarito...
+	 - As saídas coincidem!
+	 - Resultado para o saida.txt: Ok! Peso: 10
+ - Soma dos pesos dos arquivos: 10.0 (soma total) = 10.00 de 10.0 pontos.
+	 - Nota para o Caso (máximo: 3.30): 3.30 
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Comparando saida.txt do aluno e do gabarito...
+	 - As saídas coincidem!
+	 - Resultado para o saida.txt: Ok! Peso: 10
+ - Soma dos pesos dos arquivos: 10.0 (soma total) = 10.00 de 10.0 pontos.
+	 - Nota para o Caso (máximo: 3.30): 3.30 
+ - Nota para a pasta completo (máximo 3.33) - 9.90 de 9.90 - 100.00% de 3.33: 3.33.
+ -----
+ - Pasta aluno / Caso 1:
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/aluno/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Comparando saida.txt do aluno e do gabarito...
+	 - As saídas coincidem!
+	 - Resultado para o saida.txt: Ok! Peso: 10
+ - Soma dos pesos dos arquivos: 10.0 (soma total) = 10.00 de 10.0 pontos.
+	 - Nota para o Caso (máximo: 3.30): 3.30 
+ - Pasta aluno / Caso 2:
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/aluno/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 1, frees: 1, errors: 0 | Desconto do valgrind: 0.0%
+ - Comparando saida.txt do aluno e do gabarito...
+	 - As saídas coincidem!
+	 - Resultado para o saida.txt: Ok! Peso: 10
+ - Soma dos pesos dos arquivos: 10.0 (soma total) = 10.00 de 10.0 pontos.
+	 - Nota para o Caso (máximo: 3.30): 3.30 
+ - Pasta aluno / Caso 3:
+ - Arquivo de output gerado: Resultados/Annasarnaglia2025102464/aluno/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Comparando saida.txt do aluno e do gabarito...
+	 - As saídas coincidem!
+	 - Resultado para o saida.txt: Ok! Peso: 10
+ - Soma dos pesos dos arquivos: 10.0 (soma total) = 10.00 de 10.0 pontos.
+	 - Nota para o Caso (máximo: 3.30): 3.30 
+ - Nota para a pasta aluno (máximo 3.33) - 9.90 de 9.90 - 100.00% de 3.33: 3.33.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Annasarnaglia2025102464
+ - Arquivos Esperados Corretos: 3 de 3
+ - Pastas Compiladas Corretamente: 3 de 3 
+ - Pastas Linkadas Corretamente: 3 de 3
+ - Teste main
+ - Resultados corretos: 3 de 9
+ - Valgrinds corretos: 3 de 3
+	 - Nota de Annasarnaglia2025102464 para o teste main: 3.34
+ - Teste completo
+ - Resultados corretos: 3 de 9
+ - Valgrinds corretos: 3 de 3
+	 - Nota de Annasarnaglia2025102464 para o teste completo: 3.33
+ - Teste aluno
+ - Resultados corretos: 3 de 9
+ - Valgrinds corretos: 3 de 3
+	 - Nota de Annasarnaglia2025102464 para o teste aluno: 3.33
+ - Nota de Annasarnaglia2025102464: 0+(3.33)+(3.34)+(3.33)
+ - Nota de Annasarnaglia2025102464: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
